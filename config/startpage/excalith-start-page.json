@@ -3,8 +3,8 @@
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
+		"windowColor": "#e2e2e2",
+		"textColor": "#1e212b",
 		"black": "#16161e",
 		"red": "#ec6183",
 		"green": "#2ed8a2",
