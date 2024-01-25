@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "https://raw.githubusercontent.com/vangquan/.dotfiles/main/config/startpage/Safari_background2.svg",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
