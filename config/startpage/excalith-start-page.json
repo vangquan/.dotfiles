@@ -1,0 +1,211 @@
+{
+	"username": "quân",
+	"theme": {
+		"name": "Default",
+		"backgroundColor": "#121317",
+		"windowColor": "#1e212b",
+		"textColor": "#e2e2e2",
+		"black": "#16161e",
+		"red": "#ec6183",
+		"green": "#2ed8a2",
+		"yellow": "#e8b195",
+		"blue": "#2bc3de",
+		"magenta": "#d1aff8",
+		"cyan": "#62e0e2",
+		"white": "#e2e2e2",
+		"gray": "#97989d"
+	},
+	"wallpaper": {
+		"url": "assets/default-wallpaper.svg",
+		"easing": "ease-in-out",
+		"fadeIn": true,
+		"blur": false
+	},
+	"terminal": {
+		"fixedHeight": true,
+		"windowGlow": true,
+		"windowGlowColor": "#291f3325",
+		"textGlow": false,
+		"opacity": 0,
+		"blur": 16
+	},
+	"prompt": {
+		"ctrlC": true,
+		"placeholder": "chờ lệnh...",
+		"placeholderColor": "gray",
+		"userColor": "green",
+		"atColor": "gray",
+		"hostColor": "magenta",
+		"promptColor": "magenta",
+		"promptSymbol": "❯",
+		"caretColor": "green",
+		"selectionBg": "yellow",
+		"selectionFg": "black"
+	},
+	"fetch": {
+		"timeFormat": "HH:mm",
+		"dateFormat": "DD/MM/YYYY",
+		"titleColor": "yellow",
+		"image": "assets/default-icon.svg",
+		"data": [
+			"Time: {time}",
+			"Date: {date}",
+			"{seperator}",
+			"OS: {osName} {osVersion}",
+			"Theme: {theme}",
+			"{seperator}",
+			"Browser: {browser} {browserVersion}",
+			"Engine: {engineName}",
+			"{seperator}",
+			"{colors}"
+		]
+	},
+	"urlLaunch": {
+		"target": "_self",
+		"hoverColor": "magenta"
+	},
+	"search": {
+		"default": "https://google.com/search?q=",
+		"target": "_self",
+		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
+		"shortcuts": [
+			{
+				"alias": "g",
+				"name": "Google Search",
+				"url": "https://google.com/search?q={}"
+			},
+			{
+				"alias": "d",
+				"name": "DuckDuckGo Search",
+				"url": "https://duckduckgo.com/?q={}"
+			},
+			{
+				"alias": "j",
+				"name": "JW.ORG Search",
+				"url": "https://google.com/search?q=site%3Ajw.org+{}"
+			},
+			{
+				"alias": "ji",
+				"name": "JW.ORG Search",
+				"url": "https://google.com/search?q=site%3Ajw.org+{}&tbm=isch"
+			},
+			{
+				"alias": "gh",
+				"name": "Github Search",
+				"url": "https://github.com/search?q={}"
+			},
+			{
+				"alias": "s",
+				"name": "Stack Overflow Search",
+				"url": "https://stackoverflow.com/search?q={}"
+			},
+			{
+				"alias": "r",
+				"name": "Subreddit Search",
+				"url": "https://reddit.com/r/{}"
+			},
+			{
+				"alias": "w",
+				"name": "Wikipedia Search",
+				"url": "https://en.wikipedia.org/wiki/{}"
+			}
+		]
+	},
+	"sections": {
+		"list": [
+			{
+				"title": "General",
+				"color": "green",
+				"align": "left",
+				"links": [
+					{
+						"name": "GPT",
+						"url": "https://chat.openai.com/",
+						"icon": "simple-icons:openai"
+					},
+					{
+						"name": "JW Hub",
+						"url": "https://hub.jw.org/",
+						"icon": "material-symbols:hub"
+					},
+					{
+						"name": "JWPUB",
+						"url": "https://mail.jwpub.org/owa/",
+						"icon": "material-symbols:mail"
+					}
+				]
+			},
+			{
+				"title": "Dev",
+				"color": "magenta",
+				"align": "left",
+				"links": [
+					{
+						"name": "GitHub",
+						"url": "https://github.com",
+						"icon": "mdi:github"
+					},
+					{
+						"name": "Stack Overflow",
+						"url": "https://stackoverflow.com/",
+						"icon": "mdi:stack-overflow"
+					}
+				]
+			},
+			{
+				"title": "Social",
+				"color": "cyan",
+				"align": "left",
+				"links": [
+					{
+						"name": "Twitter",
+						"url": "https://twitter.com",
+						"icon": "mdi:twitter"
+					},
+					{
+						"name": "Mastodon",
+						"url": "https://mastodon.social/",
+						"icon": "ri:mastodon-fill"
+					},
+					{
+						"name": "Reddit",
+						"url": "https://reddit.com",
+						"icon": "mdi:reddit"
+					}
+				]
+			},
+			{
+				"title": "JW.ORG",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "ase",
+						"url": "https://www.jw.org/ase",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "bvl",
+						"url": "https://www.jw.org/bvl",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "en",
+						"url": "https://www.jw.org/en",
+						"icon": "mdi:speaking"
+					},
+					{
+						"name": "hab",
+						"url": "https://www.jw.org/hab",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "vi",
+						"url": "https://www.jw.org/vi",
+						"icon": "mdi:speaking"
+					}
+				]
+			}
+		]
+	}
+}
