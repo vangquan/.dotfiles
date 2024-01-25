@@ -180,28 +180,60 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "ase",
+						"name": "JW/ase",
 						"url": "https://www.jw.org/ase",
 						"icon": "material-symbols:sign-language"
 					},
 					{
-						"name": "bvl",
+						"name": "JW/bvl",
 						"url": "https://www.jw.org/bvl",
 						"icon": "material-symbols:sign-language"
 					},
 					{
-						"name": "en",
+						"name": "JW/en",
 						"url": "https://www.jw.org/en",
 						"icon": "mdi:speaking"
 					},
 					{
-						"name": "hab",
+						"name": "JW/hab",
 						"url": "https://www.jw.org/hab",
 						"icon": "material-symbols:sign-language"
 					},
 					{
-						"name": "vi",
+						"name": "JW/vi",
 						"url": "https://www.jw.org/vi",
+						"icon": "mdi:speaking"
+					}
+				]
+			},
+			{
+				"title": "WOL",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "WOL/ase",
+						"url": "https://wol.jw.org/ase",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "WOL/bvl",
+						"url": "https://wol.jw.org/bvl",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "WOL/en",
+						"url": "https://wol.jw.org/en",
+						"icon": "mdi:speaking"
+					},
+					{
+						"name": "WOL/hab",
+						"url": "https://wol.jw.org/hab",
+						"icon": "material-symbols:sign-language"
+					},
+					{
+						"name": "WOL/vi",
+						"url": "https://wol.jw.org/vi",
 						"icon": "mdi:speaking"
 					}
 				]
