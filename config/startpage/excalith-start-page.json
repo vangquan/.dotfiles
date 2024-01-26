@@ -119,11 +119,6 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
-					},
-					{
 						"name": "JW Hub",
 						"url": "https://hub.jw.org/",
 						"icon": "material-symbols:hub"
@@ -132,6 +127,11 @@
 						"name": "JWPUB",
 						"url": "https://mail.jwpub.org/owa/",
 						"icon": "material-symbols:mail"
+					},
+					{
+						"name": "JW Site",
+						"url": "https://jwsite.sharepoint.com/sites/VNM-trans-collaborators/SitePages/Home.aspx",
+						"icon": "mdi:microsoft"
 					}
 				]
 			},
@@ -141,20 +141,20 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "GPT",
+						"url": "https://chat.openai.com/",
+						"icon": "simple-icons:openai"
+					},
+					{
 						"name": "GitHub",
 						"url": "https://github.com",
 						"icon": "mdi:github"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
 					}
 				]
 			},
 			{
 				"title": "Social",
-				"color": "cyan",
+				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
@@ -163,9 +163,9 @@
 						"icon": "mdi:twitter"
 					},
 					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
+						"name": "Youtube",
+						"url": "https://youtube.com/",
+						"icon": "mdi:youtube"
 					},
 					{
 						"name": "Reddit",
@@ -208,7 +208,7 @@
 			},
 			{
 				"title": "WOL",
-				"color": "blue",
+				"color": "red",
 				"align": "left",
 				"links": [
 					{
