@@ -35,8 +35,8 @@
 		"placeholderColor": "gray",
 		"userColor": "green",
 		"atColor": "gray",
-		"hostColor": "magenta",
-		"promptColor": "magenta",
+		"hostColor": "red",
+		"promptColor": "red",
 		"promptSymbol": "❯",
 		"caretColor": "green",
 		"selectionBg": "yellow",
@@ -114,7 +114,7 @@
 	"sections": {
 		"list": [
 			{
-				"title": "General",
+				"title": "JW",
 				"color": "green",
 				"align": "left",
 				"links": [
@@ -136,7 +136,7 @@
 				]
 			},
 			{
-				"title": "Dev",
+				"title": ":)",
 				"color": "magenta",
 				"align": "left",
 				"links": [
@@ -149,6 +149,11 @@
 						"name": "GitHub",
 						"url": "https://github.com",
 						"icon": "mdi:github"
+					},
+					{
+						"name": "Copilot",
+						"url": "https://copilot.microsoft.com/",
+						"icon": "arcticons:microsoft-copilot"
 					}
 				]
 			},
@@ -235,6 +240,33 @@
 						"name": "WOL/vi",
 						"url": "https://wol.jw.org/vi",
 						"icon": "mdi:speaking"
+					}
+				]
+			},
+			{
+				"title": "Google",
+				"color": "grey",
+				"align": "left",
+				"links": [
+					{
+						"name": "Sheets",
+						"url": "https://sheets.google.com",
+						"icon": "simple-icons:googlesheets"
+					},
+					{
+						"name": "Slides",
+						"url": "https://slides.google.comv",
+						"icon": "simple-icons:googleslides"
+					},
+					{
+						"name": "Drive",
+						"url": "https://drive.google.com",
+						"icon": "simple-icons:googledrive"
+					},
+					{
+						"name": "Maps",
+						"url": "https://maps.google.com",
+						"icon": "simple-icons:googlemaps"
 					}
 				]
 			}
